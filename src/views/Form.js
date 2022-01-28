@@ -23,8 +23,6 @@ import { connect } from "react-redux";
 import { Controller, useForm } from "react-hook-form";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
-import { useHistory, useParams } from "react-router";
-import { firestoreConnect } from "react-redux-firebase";
 
 const useStyles = makeStyles((theme) => ({
   root: {

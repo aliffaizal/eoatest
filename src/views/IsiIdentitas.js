@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Grid,
   Button,
@@ -25,13 +25,6 @@ const IsiIdentitas = ({ identitas, removeIdentitas }) => {
       <TableCell>{identitas.agama}</TableCell>
       <TableCell>{identitas.alamat}</TableCell>
       <TableCell>
-        <Button
-          variant="contained"
-          color="primary"
-          style={{ marginRight: "15px" }}
-        >
-          Update
-        </Button>
         <Button
           variant="contained"
           color="secondary"
